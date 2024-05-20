@@ -1,0 +1,328 @@
+/* Main CSS */
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.two {
+  display: flex;
+  height: 298px;
+  width: 306;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.37);
+  border-radius: 6px;
+}
+
+.section-1,
+.section-2 {
+  border: 2px solid rgba(0, 0, 0, 0.37);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.section-1 > input {
+  width: 250px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  font-family: "Outfit", sans-serif;
+}
+.section-2 > input {
+  width: 250px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  font-family: "Outfit", sans-serif;
+}
+.section-1 > textarea {
+  font-family: "Outfit", sans-serif;
+  border: none;
+  outline: none;
+}
+.section-2 > textarea {
+  font-family: "Outfit", sans-serif;
+  border: none;
+  outline: none;
+}
+textarea {
+  font-size: 14px;
+  padding: 10px;
+}
+.section-1 > textarea::placeholder {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.925);
+  inline-size: 100px;
+  overflow-wrap: break-word;
+}
+.section-2 > textarea::placeholder {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.925);
+  inline-size: 100px;
+  overflow-wrap: break-word;
+}
+::placeholder {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.925);
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+}
+.upload-img {
+  padding: 20px 26px;
+  background-color: rgb(247, 245, 176);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.upload-img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.upload-img > p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.808);
+  font-size: 14px;
+}
+.three > button {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  padding: 5px 25px;
+  border: 1.5px solid black;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 4px;
+}
+
+/* Table CSS */
+.table {
+  margin: 60px 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.table > div {
+  display: flex;
+  flex: start;
+}
+.dem-Table {
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+.input-one {
+  padding: 2px 14px 2px 0px;
+}
+.input-two {
+  padding: 6px 0px 6px 30px;
+  width: 60%;
+}
+.input-three {
+  padding: 2px 0px 2px 14px;
+}
+.dem-Table > thead > tr {
+  border: 2px solid #247d5d;
+  border-radius: 10px;
+}
+
+.dem-Table > thead > tr > th {
+  text-wrap: wrap;
+  padding: 10px 0px;
+}
+.dem-Table > tbody > tr > td > input {
+  width: 95%;
+  height: 100%;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  outline: none;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.829);
+}
+.dem-Table > tbody > tr > td {
+  padding: 2px 14px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.rs {
+  position: absolute;
+  left: 22px;
+  top: 22px;
+}
+.table > div > button {
+  background: transparent;
+  font-size: 35px;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 10px 0px;
+  color: #247d5d;
+  cursor: pointer;
+}
+.table > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cancel {
+  cursor: pointer;
+  font-size: 20px;
+  color: red;
+}
+
+/* Note CSS */
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.total > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+}
+.total > div > input {
+  padding: 6px 10px;
+  border-radius: 5px;
+  width: 140px;
+  border: 1px solid black;
+  outline: none;
+  font-family: "Outfit", sans-serif;
+}
+.total > div > label {
+  width: 160px;
+  text-align: end;
+}
+.total > div > span {
+  width: 160px;
+  text-align: start;
+  align-items: center;
+}
+.note {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 20px;
+}
+.note > textarea {
+  width: 80%;
+  font-family: "Outfit", sans-serif;
+  outline: none;
+  border-radius: 6px;
+  border: 1.5px solid rgba(0, 0, 0, 0.753);
+}
+.note-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 40px;
+}
+
+.total-all {
+  background-color: #247d5d;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Query */
+
+@media (max-width: 760px) {
+  .main {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .dem-Table > tbody > tr > td > input {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .dem-Table {
+    display: flex;
+    flex-direction: row;
+  }
+  .dem-Table > thead > tr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .dem-Table > tbody > tr {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .dem-Table > tbody > tr > td > input {
+    margin-top: 10px;
+  }
+  .input-two {
+    padding-left: 14px;
+  }
+  .table {
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .dem-Table > thead > tr {
+    background-color: #247d5d;
+    color: white;
+    border-color: #247d5d;
+  }
+  .input-two {
+    min-width: 88%;
+  }
+}
+
+@media (max-width: 750px) {
+  .note-page {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .total-all {
+    margin-left: -8px;
+  }
+  .note > textarea {
+    width: 100%;
+  }
+  .note {
+    min-width: 90%;
+  }
+}

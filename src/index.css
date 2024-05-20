@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Burned&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background: #247d5d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.navbar > h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 550;
+}
+.navbar > button {
+  padding: 6px 20px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 450;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
